@@ -13,7 +13,7 @@ The project was developed by:
 
 ## Dataset
 
-The data used in this project was collected from **Binance** and covers approximately the **last six months** of cryptocurrency market data used for the experiment.
+The data used in this project was collected from cc and covers approximately the **last six months** of cryptocurrency market data used for the experiment.
 
 The data was prepared and split chronologically into three sets:
 
@@ -49,9 +49,13 @@ The final comparison is performed on the held-out test set.
 At its current stage, this project is intentionally kept simple:
 
 ```text
-.
-├── tabfm_benchmark_github.ipynb
-└── README.md
+tabfm-crypto-benchmark/
+├── Resources/
+├── LICENSE
+├── README.md
+├── gitignore
+├── requirements.txt
+└── tabfm_benchmark.ipynb
 ```
 
 The notebook contains the data preparation, model training, prediction, and comparison process.
@@ -60,7 +64,9 @@ The notebook contains the data preparation, model training, prediction, and comp
 
 The main experiment is contained in the Jupyter Notebook:
 
-`tabfm_benchmark_github.ipynb`
+`tabfm_benchmark.ipynb`
+
+You can access the csv file from the `Resources/` directory and also `crypto_data_github.ipynb` where you can configure how to parse the data from the **Binance** API. 
 
 Open the notebook in Jupyter Notebook, JupyterLab, or Google Colab and run the cells in order.
 
